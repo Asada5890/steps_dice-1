@@ -33,9 +33,11 @@ _После ввода числа_ `2`:
 ```python
 from random import randint
 
-print("""МЕНЮ
+print(
+"""МЕНЮ
 1 Бросить кубик
-2 Выйти""")
+2 Выйти"""
+)
 
 option = input("Сделайте выбор: ")
 
